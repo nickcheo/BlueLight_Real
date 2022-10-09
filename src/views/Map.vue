@@ -171,7 +171,7 @@ export default {
         const directionsRenderer = new google.maps.DirectionsRenderer();
         directionsService.route({
           // origin: '156 E 13th Ave Columbus, OH 43210',
-          origin: { lat: 0, lng: longitude },
+          origin: { lat: lat, lng: lng },
           destination: { lat: 39.9984845, lng: -83.0013486},
           // destination: '1739 N High St, Columbus, OH 43210',
           travelMode: "WALKING"
